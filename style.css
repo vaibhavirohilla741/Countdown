@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(236, 184, 41);
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(20, 20, 20);
+
+}
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minutes,
+.seconds {
+    font-size: 3rem;
+}
+
+.waiting {
+    height: 50vh;
+    padding: 3rem;
+}
+
+@media only screen and (max-device-width:480px) {
+    .waiting {
+        height:20vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    }
+}
